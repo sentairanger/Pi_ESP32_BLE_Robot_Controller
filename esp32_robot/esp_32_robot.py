@@ -82,4 +82,4 @@ async def connect_and_communicate(address):
 
 # Run the connection and communication
 loop = asyncio.get_event_loop()
-loop.run_until_complete(connect_and_communicate(pico_address))
+loop.run_until_complete(connect_and_communicate(esp32))
