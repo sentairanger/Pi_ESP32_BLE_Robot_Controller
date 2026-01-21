@@ -29,7 +29,7 @@ async def receive_data_task(client):
             backward_button = backward
             left_button = left
             right_button = right
-            speed = speed_value
+            speed_value = speed
             norm = max(0.0, min(1.0, speed_value / 4095.0))
             pwm.value = norm
             pwm2.value = norm 
